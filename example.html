@@ -11,22 +11,66 @@
     <title>Hello, world of algae!</title>
   </head>
   <body class="bg-info">
-    <div class=" m-2 d-flex flex-row mb-3 align-content-around text-center">
-        <div class="m-2 d-flex flex-column mb-3 justify-content-around">
-            <article class="flex-fill m-2 bg-light align-content-around"><img class="w-75 p-3" src="pics/33873_alexandrium-tamarense-we-clade.jpg" ><p>Alexandrium tamarense: The red tide! Do you read the bible? Did you hear about the plague turning the water in the Nil into blood? That actually was a red tide caused by these little fellers. When these microalgae form massive blooms, they can give the water a bloody red tint.</p><button>Want to learn more?</button></article>
-            <article class="flex-fill m-2  bg-light align-content-around"><img class="w-75 p-3" src="pics/Ceratium_hirundinella-200x.jpg"><p>Dinoflagellates are mostly photostnthetic microorganisms with a cellwall made of cellulose. </p><button>Want to learn more?</button></article>
+    <nav class="nav">
+      <ul class="nav">
+      <li class="nav_item"><a href="#">link 1</a></li>
+      <li class="nav_item"><a href="#">link 2</a></li>
+      <li class="nav_item"><a href="#">link 3</a></li>
+    </ul>
+    </nav>
+    <div class="container text-center">
+        <div class="row">
+            <article class="col align-content-center m-3 bg-light rounded">
+                <img class="  w-75 p-3" src="pics/33873_alexandrium-tamarense-we-clade.jpg" >
+                <p class="">Alexandrium tamarense: The red tide! Do you read the bible? Did you hear about the plague turning the water in the Nil into blood? That actually was a red tide caused by these little fellers. When these microalgae form massive blooms, they can give the water a bloody red tint.</p>
+                <button type="button" class="btn btn-secondary " data-toggle="tooltip" data-placement="top" title="Algae are awesome!">Want to learn more?</button>
+            </article>
+
+            <article class="col align-content-center m-3 bg-light rounded">
+                <img class="  w-75 p-3" src="pics/Ceratium_hirundinella-200x.jpg">
+                <p class="">Dinoflagellates are mostly photostnthetic microorganisms with a cellwall made of cellulose. </p>
+                <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Algae are awesome!">Want to learn more?</button>
+            </article>
+
+            <article class="col align-content-center m-3 bg-light rounded">
+                <img class="  w-100 p-3" src="pics/dino SEM.jpeg">
+                <p>Alexandrium tamarense as seen under the SEM. The structur of its plates helps taxonomists to identify them down to the species level.</p>
+                <button type="button" class="btn btn-secondary  " data-toggle="tooltip" data-placement="top" title="Algae are awesome!">Want to learn more?</button>
+            </article>
+
+            <article class="col align-content-center m-3 bg-light rounded">
+                <img class="w-75 p-3" src="pics/Cyanobacteria.jpg">
+                <p class="">Cyanobacteria, aka blue-green algae, are one of the first life forms ever to emerge on planet Earth. It was them, who enriched the atmoshphere with oxygen which cleared path for complexer live forms to evolve.</p>
+                <button type="button" class="btn btn-secondary  " data-toggle="tooltip" data-placement="top" title="Algae are awesome!">Want to learn more?</button>
+            </article>
+
         </div>
-        <div class="m-2 d-flex flex-column mb-3 justify-content-around">    
-            <article class="flex-fill m-2  bg-light align-content-around"><img class="w-100 p-3" src="pics/dino SEM.jpeg"><p>Alexandrium tamarense as seen under the SEM. The structur of its plates helps taxonomists to identify them down to the species level.</p><button>Want to learn more?</button></article>
-            <article class="flex-fill m-2  bg-light align-content-around"><img class="w-75 p-3" src="pics/Cyanobacteria.jpg"><p>Cyanobacteria, aka blue-green algae, are one of the first life forms ever to emerge on planet Earth. It was them, who enriched the atmoshphere with oxygen which cleared path for complexer live forms to evolve.</p><button>Want to learn more?</button></article>
-        </div>
-        <div class="m-2 d-flex flex-column mb-3 justify-content-around">
-            <article class="flex-fill m-2  bg-light align-content-around"><img class="w-75 h-50 p-3" src="pics/diatom sem.jpg"><p>Diatoms, the royals of the ocean. Diatoms make up to 50% of global phytoplankton which again produces 50% of atmoshpheric oxygen. If you think that's not impressive, try holding your breath for 6h a day!</p><button>Want to learn more?</button></article>
-            <article class="flex-fill m-2  bg-light align-content-around"><img class="w-100 h-50 p-3" src="pics/foraminifera.jpg"><p>Foraminifera are actually not algae. They are unicellular animals that often host microalgae (mostly dinoflagellates) in their outer surroundings. Due to their calcite shell, they are a major player in the ocean chemistry with respect to ocean acidification.</p><button>Want to learn more?</button></article>
-        </div>
-        <div class="m-2 d-flex flex-column mb-3 justify-content-around">
-            <article class="flex-fill m-2  bg-light align-content-around"><img class="w-75 p-3" src="pics/penate sem.jpg"><p>Pennate diatoms have a lower boyancy and mostly grow as epiphytes on other organism or on/in the sediment</p><button>Want to learn more?</button></article>
-            <article class="flex-fill m-2  bg-light align-content-around"><img class="w-75 p-3" src="pics/ys59-13x18000_emilia.jpeg"><p>Coccolithophora have shells made of calcite plates. Their massive blooms reflect so much sunlight, they are influencing the albedo of Earth and thereby its climate. Fun fact: The spacy look of the calcite plates gave inspiration to the jets you see in Starwars. </p><button>Want to learn more?</button></article>
+
+        <div class="row">
+            <article class="col w-75 m-3 bg-light rounded">
+                <img class="w-75 h-50 p-3" src="pics/diatom sem.jpg">
+                <p>Diatoms, the royals of the ocean. Diatoms make up to 50% of global phytoplankton which again produces 50% of atmoshpheric oxygen. If you think that's not impressive, try holding your breath for 6h a day!</p>
+                <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Algae are awesome!">Want to learn more?</button>
+              </article>
+
+            <article class="col w-75 h-75 m-3 bg-light rounded">
+                <img class="w-100 h-50 p-3" src="pics/foraminifera.jpg">
+                <p>Foraminifera are actually not algae. They are unicellular animals that often host microalgae (mostly dinoflagellates) in their outer surroundings. Due to their calcite shell, they are a major player in the ocean chemistry with respect to ocean acidification.</p>
+                <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Algae are awesome!">Want to learn more?</button>
+            </article>
+
+            <article class="col w-75 m-3 bg-light rounded">
+                <img class="w-75 p-3" src="pics/penate sem.jpg">
+                <p>Pennate diatoms have a lower boyancy and mostly grow as epiphytes on other organism or on/in the sediment</p>
+                <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Algae are awesome!">Want to learn more?</button>
+              </article>
+
+            <article class="col w-75 m-3 bg-light rounded">
+                <img class="w-75 p-3" src="pics/ys59-13x18000_emilia.jpeg">
+                <p>Coccolithophora have shells made of calcite plates. Their massive blooms reflect so much sunlight, they are influencing the albedo of Earth and thereby its climate. Fun fact: The spacy look of the calcite plates gave inspiration to the jets you see in Starwars. </p>
+                <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Algae are awesome!">Want to learn more?</button>
+            </article>
+
         </div>
     </div>
     <!-- Optional JavaScript -->
